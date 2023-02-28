@@ -1,0 +1,79 @@
+footer{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color:#151D26;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer{
+    width: 95%;
+    display: flex;
+}
+
+.Section1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.containerTitle{
+    margin-bottom: 30px;
+}
+
+.containerTitle h3{
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+.containerTitle p{
+    color: #4D5260;
+    font-size: 18px;
+}
+
+.FoterButton{
+    border:none;
+    background: #1A212C;
+    height: 40px;
+    margin-left: 15px;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.ContainerButtons{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 95px;
+}
+
+.ContainerButtons .FoterButton img{
+    margin-right: 5px;
+}
+
+
+.ContainerDescription{
+    width: 50%;
+}
+
+footer .ContainerDescription h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .ContainerDescription textarea{
+    resize: none;
+    height: 195px;
+    width: 100%;
+    background-color: #1A212C;
+    border: none;
+    color:#4D5260;
+    padding: 8px;
+    margin-bottom: 40px;
+}
+
+footer .ContainerDescription textarea:focus-visible{
+    outline: none;
+}

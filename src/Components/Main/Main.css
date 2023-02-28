@@ -1,0 +1,282 @@
+main{
+    background-color: #151D26;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container{
+    width: 95%;
+}
+
+.NavFilterContainer{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.NavFilterContainer input{
+    color:  #545454;
+    border: solid 1px #282E3A;
+    background-color: #191C20;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input1{
+    width: 1150px;
+    margin-right: 15px;
+    padding-left: 40px !important;
+    background-image: url('../../Assets/Lupa.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+}
+
+
+.input2{
+    width: 229px;
+    margin-left: 17px;
+}
+
+
+.NavFilterContainer button{
+    width: 185px;
+    height: 42px;
+    left: 1340px;
+    top: 119px; 
+    background: linear-gradient(95.61deg, #5CBC20 -37.74%, #285B07 99.01%);
+    border-radius: 5px;
+    color: #fff;
+    border :none;
+    margin-left: 20px;
+}
+
+.Div-after-NavFilterContainer{
+    background-color: #272E3B;
+    display: inline-block;
+    height: 40px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.container section{
+    width: 100%;
+}
+
+.ContainerFigureAndTable{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContainerFigure{
+    display: flex;
+    flex-direction: column;
+}
+
+.ContainerFigure figure{
+    background-color: black;
+    width: 1150px;
+    height: 680px;
+}
+
+.divUnderFigure{
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.divUnderFigure ul{
+    display: flex;
+    color:  #585858;
+}
+
+.divUnderFigure .ul1{
+    width: 25%;
+}
+
+.divUnderFigure .ul1 li{
+    margin-left: 15px;
+    overflow-y: hidden;
+    background-color: #141414;
+    padding: 8px;
+    width: 110px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.divUnderFigure .ul1 li img{
+    position: relative;
+    height: 15px;
+}
+
+.divUnderFigure .ul2{
+    width: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.divUnderFigure .ul3{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.divUnderFigure .ul3 li{
+    margin-left: 25px;
+}
+
+.ContainerTable{
+    margin-left: 25px;
+    background: #1A212C;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 680px;
+}
+
+.ContainerTable div{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ContainerTable div button{
+    width: 125px;
+    background: #272E3B;
+    color: #fff;
+    margin-left: 20px;
+    text-align: center;
+    height: 32px;
+    border: none;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+td{
+    width: 16.67%;
+    text-align: left;
+    font-size: 10px;
+    margin-bottom: 9px;
+}
+
+.diferentTd{
+    margin-bottom: 15px;
+}
+
+.betId{
+    color: #4D5260;
+    margin-left: 10px;
+}
+
+.provider1{
+    color: #4D5260;
+}
+
+.provider{
+    color: #fff;
+}
+
+.time{
+    color: #4D5260;
+}
+
+.betmoney{
+    color:#4D5260   
+}
+
+.betmoney1{
+    color:#4D5260   
+}
+
+.betmoney::first-letter{
+    text-decoration: line-through;
+}
+
+.winmoney1{
+    color: #4D5260;
+}
+
+.winmoney{
+    color: #fff;
+}
+
+.winmoney::first-letter{
+    text-decoration: line-through;
+}
+
+.country{
+    color: #4D5260;
+    text-align: center;
+}
+
+.PragmaticContainer{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.PragmaticContainer .containerImg{
+    background: #1A212C;
+    display: flex;
+    align-items: center;
+    width: 144px;
+    height: 121px;
+    justify-content: center;
+}
+
+.cointainerimg2 img{
+    width: 128px;
+    height: 51px;
+}
+
+
+.ContainerText{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.ContainerText h3{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.ContainerText p{
+    color:#4D5260;
+    line-height: 25px;
+}
+
+
+.ContainerPercetage{
+    display: flex;
+    background: #1A212C;
+    height: 28px;
+    padding: 5px;
+    width: 75px;
+    border-radius: 7px;
+}
+
+
+.p1{
+    margin-right: 5px;
+    color:#4D5260
+}
+
+.p2{
+    color:#4A9A17
+}
